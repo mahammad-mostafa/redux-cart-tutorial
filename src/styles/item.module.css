@@ -1,0 +1,86 @@
+.article {
+  height: 150px;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: var(--border-color);
+  border-radius: 5px;
+}
+
+.image {
+  width: 100px;
+  padding: 10px 0;
+  aspect-ratio: 4 / 5;
+  object-fit: contain;
+  background-color: var(--bright-color);
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-inline-end: auto;
+}
+
+.title {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+
+.price {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.remove {
+  cursor: pointer;
+  align-self: flex-start;
+  padding: 10px 20px;
+  font-weight: bolder;
+  color: var(--secondary-color);
+  background-color: var(--background-color);
+  border-radius: 5px;
+  margin-top: auto;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.arrow {
+  width: 50px;
+  display: flex;
+  padding: 10px 15px;
+  color: var(--secondary-color);
+  background-color: var(--background-color);
+  border-radius: 5px;
+}
+
+.amount {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bolder;
+  color: var(--secondary-color);
+}
+
+.remove:hover,
+.arrow:hover {
+  cursor: pointer;
+  color: var(--dark-color);
+  background-color: var(--bright-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .article {
+    height: 200px;
+  }
+
+  .image {
+    width: 150px;
+  }
+}
