@@ -34,7 +34,7 @@ The live build is generated inside the `build` directory.
 Also config linters for (`CSS` / `JavaScript`) in the `.github` folder.
 
 📌 **Live Demo:**
-- See the project live from [here]().
+- See the project live from [here](https://cart-items.onrender.com).
 
 📌 **Tech Stack:**
 - Framework used is `ReactJS`
