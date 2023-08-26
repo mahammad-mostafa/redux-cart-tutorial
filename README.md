@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+<a name="title"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- TITLE -->
 
-## Available Scripts
+# 🏷️ Redux Cart Tutorial App
 
-In the project directory, you can run:
+This is the fourth project of the third module in the **Microverse** program.
+<br/>
+Check the below contents for further details about this project.
 
-### `npm start`
+<!-- CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Description](#description)
+- [Instructions](#instructions)
+- [Authors](#authors)
+- [Future](#future)
+- [Contributions](#contributions)
+- [Support](#support)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
-### `npm test`
+<!-- DESCRIPTION -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a name="description"></a>
 
-### `npm run build`
+# 📖 Description
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is a tutorial exercise for `Redux Toolkit` with `ReactJS` framework.
+It applies `Redux` concepts like (`store` / `actions` / `reducers`).
+All project dynamic files are contained in `src` directory while static assets are in `public` directory.
+The live build is generated inside the `build` directory.
+Also config linters for (`CSS` / `JavaScript`) in the `.github` folder.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📌 **Live Demo:**
+- See the project live from [here]().
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📌 **Tech Stack:**
+- Framework used is `ReactJS`
+- State management by `Redux Toolkit`
+- Page structure is built with `JSX`
+- Styling is built with `CSS Modules`
+- Dynamic content is built with `ES6 JavaScript`
+- Bundling is done with `WebPack`
 
-### `npm run eject`
+📌 **Key Features:**
+- Single page app with all content loaded dynamically
+- Responsive layout with all screen sizes
+- Live data fetching from an external api
+- Simple cart items list with content updating
+- Ability to change cart contents
+- Confirmation dialog for clearing all cart items
+ 
+<p align="right"><a href="#title">back to top</a></p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- INSTRUCTIONS -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a name="instructions"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 🛠️ Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You can easily download or fork this repository and work on it immadiately!
 
-## Learn More
+📌 **Prerequisites:**
+- `NodeJS` for installing & running all packages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📌 **Setup:**
+- Install all dependencies with `npm`
+```
+npm install
+```
+- For live development on `localhost:3000` run:
+```
+npm run start
+```
+- Unit testing is done with:
+```
+npm run test
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📌 **Deployment:**
+- You can deploy this project by uploading files in the `build` folder to a live server.
+- Create the distribution build using this command:
+```
+npm run build
+```
 
-### Code Splitting
+<p align="right"><a href="#title">back to top</a></p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- AUTHORS -->
 
-### Analyzing the Bundle Size
+<a name="authors"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 👥 Authors
 
-### Making a Progressive Web App
+📌 **Mahammad:**
+- [GitHub](https://github.com/mahammad-mostafa)
+- [Twitter](https://twitter.com/mahammad_mostfa)
+- [LinkedIn](https://linkedin.com/in/mahammad-mostafa)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right"><a href="#title">back to top</a></p>
 
-### Advanced Configuration
+<!-- FUTURE -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<a name="future"></a>
 
-### Deployment
+# 🔭 Future
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Some additional features I may implement in the project:
+- [ ] Using `CSS` preprocessors and their relevant loaders
+- [ ] Implement advanced `Hooks` features like `useMemo`
 
-### `npm run build` fails to minify
+<p align="right"><a href="#title">back to top</a></p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- CONTRIBUTIONS -->
+
+<a name="contributions"></a>
+
+# 🤝🏻 Contributions
+
+Wish to contribute to this project?
+<br/>
+Contributions, issues, and feature requests are more than welcome!
+<br/>
+Feel free to check the [issues](../../issues) page too.
+
+<p align="right"><a href="#title">back to top</a></p>
+
+<!-- SUPPORT -->
+
+<a name="support"></a>
+
+# ⭐️ Support
+
+Like this project? Show your support by starring!
+
+<p align="right"><a href="#title">back to top</a></p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+<a name="acknowledgements"></a>
+
+# 🙏🏻 Acknowledgements
+
+I thank everyone at **Microverse** for guiding me through this project.
+
+<p align="right"><a href="#title">back to top</a></p>
+
+<!-- LICENSE -->
+
+<a name="license"></a>
+
+# 📝 License
+
+This project is [MIT](LICENSE.md) licensed.
+
+<p align="right"><a href="#title">back to top</a></p>
