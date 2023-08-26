@@ -51,6 +51,11 @@
   background-color: var(--bright-color);
 }
 
+.clear:disabled {
+  color: var(--dark-color);
+  background-color: var(--border-color);
+}
+
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 1000px;

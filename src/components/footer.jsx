@@ -15,7 +15,7 @@ const Footer = ({ total, handler }) => (
         {total.toFixed(2)}
       </span>
     </div>
-    <button className={Styles.clear} type="button" onClick={() => handler(true)}>Clear Cart</button>
+    <button className={Styles.clear} type="button" onClick={() => handler(true)} disabled={total === 0}>Clear Cart</button>
   </footer>
 );
 
