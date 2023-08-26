@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  height: calc(100% - 80px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon {
+  width: 100px;
+  color: var(--secondary-color);
+}
+
+.title {
+  font: italic bolder 1rem var(--font-family);
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotateZ(0); }
+  100% { transform: rotateZ(360deg); }
+}
