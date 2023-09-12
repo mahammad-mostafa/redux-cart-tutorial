@@ -2,7 +2,7 @@
 
 <!-- TITLE -->
 
-# 🏷️ Redux Cart Tutorial App
+# 🏷️ Redux Cart Tutorial
 
 This is the fourth project of the third module in the **Microverse** program.
 <br/>
